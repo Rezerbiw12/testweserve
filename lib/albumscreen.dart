@@ -83,7 +83,7 @@ class _AlbumsScreenState extends State<AlbumsScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                  'Photo at albumId: ${albums[index]['id'].toString()}'),
+                                  'Photo at albumId: ${albums[index]['id'].toString()}',style: TextStyle(fontSize: 17,fontWeight:FontWeight.bold ),),
                               Text(albums[index]['title']),
                             ],
                           ),
